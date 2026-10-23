@@ -2,11 +2,16 @@
 
 **GhostLock** keeps your MacBook or Windows PC awake at 100% speed for background LLMs (`Ollama`, `Claude Code`, `Cursor`, `Browser-Use`) while locking your screen behind a **Liquid Glass**, **Frosted Backdrop**, or **Stealth OS Update Decoy** overlay.
 
-## Install on macOS via Homebrew (One Command)
+## Option 1: Install via Homebrew Cask / Formula
 
 ```bash
-brew update
-brew install Bhavya-gupta127/ghostlock/ghostlock
+brew install --cask Bhavya-gupta127/ghostlock/ghostlock
+```
+
+## Option 2: Direct Install (For Office Macs where Veltar blocks Homebrew's Ruby 4.0.0 extensions)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Bhavya-gupta127/homebrew-ghostlock/main/install.sh | bash
 ```
 
 ## Quick Start
@@ -18,9 +23,3 @@ ghostlock
 # Stop background daemon
 ghostlock stop
 ```
-
-## Key Features
-- **6 Lock & Stealth Decoy Modes**: Liquid Glass, Backdrop Frosted, Pitch Dark OLED, macOS Update Decoy, Windows Update Decoy, and Neural Terminal Decoy.
-- **Blind Keyboard Unlock on Decoys**: Zero password boxes shown on Decoy screens—simply type your password directly on the keyboard and press `Enter`.
-- **Zero-Prompt Silent Intruder Webcam Capture**: Automatically snaps a timestamped photo on failed password attempts in Kiosk mode.
-- **Enterprise Endpoint Compatible**: Uses only signed system binaries (`/usr/bin/caffeinate`, Homebrew `node`, and `Google Chrome`) with zero unsigned Mach-O binaries or kernel extensions.

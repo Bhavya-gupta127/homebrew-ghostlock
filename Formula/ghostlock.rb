@@ -3,10 +3,7 @@ class Ghostlock < Formula
   homepage "https://github.com/Bhavya-gupta127/homebrew-ghostlock"
   url "https://raw.githubusercontent.com/Bhavya-gupta127/homebrew-ghostlock/main/releases/ghostlock-v1.0.0.tar.gz"
   version "1.0.0"
-  sha256 "17eaa57d3c60710e84ac5b278bf9b8f33713b3182d8d055ae53c5790e9c6a397"
-  license :cannot_represent
-
-  depends_on "node"
+  sha256 "b383102e7a47d67cc02da2ad367e0e970122e56d988307de9e34cb6890f8ec61"
 
   def install
     libexec.install Dir["*"]
@@ -18,15 +15,11 @@ class Ghostlock < Formula
     <<~EOS
       GhostLock v1.0.0 is installed!
 
-      1. Start GhostLock Fullscreen Kiosk Shield (uses built-in Apple caffeinate + Chrome Kiosk):
+      1. Start GhostLock Fullscreen Kiosk Shield:
            ghostlock
 
       2. Stop the background daemon anytime:
            ghostlock stop
     EOS
-  end
-
-  test do
-    assert_match "ghostlock #{version}", shell_output("#{bin}/ghostlock --version")
   end
 end

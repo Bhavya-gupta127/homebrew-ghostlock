@@ -1,6 +1,6 @@
 cask "ghostlock" do
   version "1.0.0"
-  sha256 "ce88392eb04e4aa16efbb6dd0ecc43ca256cb8c9ee62a904cf5baa4e96edfd6f"
+  sha256 "9896e9fcc619ac81959324f5473b06eed25c66288723816f90e79542cb860d43"
 
   url "https://raw.githubusercontent.com/Bhavya-gupta127/homebrew-ghostlock/main/releases/ghostlock-v1.0.0.tar.gz"
   name "GhostLock"

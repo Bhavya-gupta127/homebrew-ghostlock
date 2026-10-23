@@ -3,7 +3,7 @@ class Ghostlock < Formula
   homepage "https://github.com/Bhavya-gupta127/homebrew-ghostlock"
   url "https://raw.githubusercontent.com/Bhavya-gupta127/homebrew-ghostlock/main/releases/ghostlock-v1.0.0.tar.gz"
   version "1.0.0"
-  sha256 "b383102e7a47d67cc02da2ad367e0e970122e56d988307de9e34cb6890f8ec61"
+  sha256 "ce88392eb04e4aa16efbb6dd0ecc43ca256cb8c9ee62a904cf5baa4e96edfd6f"
 
   def install
     libexec.install Dir["*"]

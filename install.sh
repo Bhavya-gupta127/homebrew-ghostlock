@@ -29,5 +29,5 @@ else
   BIN_DEST="${HOME}/.local/bin/ghostlock"
 fi
 
-echo "✅ GhostLock v1.0.0 installed to ${BIN_DEST}"
-echo "🚀 Run 'ghostlock' in your terminal to start!"
+  echo "✅ GhostLock v1.0.0 installed to ${BIN_DEST}"
+  echo "🚀 Run 'ghostlock' in your terminal to start, or 'ghostlock lock' (⌘+⇧+L) to lock anytime!"

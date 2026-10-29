@@ -10,6 +10,18 @@ Keep your **MacBook** or **PC** awake at 100% compute speed so local LLMs (`Olla
 
 ---
 
+## 🎬 Video Demo in Action
+
+Watch GhostLock in action—keeping background AI workloads executing while engaging the Liquid Glass anti-bypass screen lock:
+
+<p align="center">
+  <video src="assets/videos/ghostlock-demo.mp4" controls="controls" width="94%"></video>
+  <br>
+  <em>▶️ <a href="assets/videos/ghostlock-demo.mp4"><strong>Watch GhostLock Demo Video (MP4)</strong></a></em>
+</p>
+
+---
+
 ## 📸 Visual Showcase
 
 ### 1. Control Center Dashboard
